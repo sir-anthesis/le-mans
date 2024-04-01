@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\CarRace\CarRace\bin\Debug\CarRace.exe.config
+C:\Users\User\source\repos\CarRace\CarRace\bin\Debug\CarRace.exe
+C:\Users\User\source\repos\CarRace\CarRace\bin\Debug\CarRace.pdb
+C:\Users\User\source\repos\CarRace\CarRace\obj\Debug\CarRace.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\CarRace\CarRace\obj\Debug\CarRace.Game.resources
+C:\Users\User\source\repos\CarRace\CarRace\obj\Debug\CarRace.Properties.Resources.resources
+C:\Users\User\source\repos\CarRace\CarRace\obj\Debug\CarRace.csproj.GenerateResource.cache
+C:\Users\User\source\repos\CarRace\CarRace\obj\Debug\CarRace.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CarRace\CarRace\obj\Debug\CarRace.exe
+C:\Users\User\source\repos\CarRace\CarRace\obj\Debug\CarRace.pdb
