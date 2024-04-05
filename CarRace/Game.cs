@@ -14,6 +14,9 @@ namespace CarRace
     public partial class Game : Form
     {
         int gamespeed = 0;
+        Random r = new Random();
+        int x, y;
+        int score = 0;
 
         public Game()
         {
@@ -24,10 +27,12 @@ namespace CarRace
         {
             MoveLine(gamespeed);
             MoveEnemy(gamespeed);
-        }
+            MoveCoin(gamespeed);
+            Scoring();
+            GameOver();
 
-        Random r = new Random();
-        int x, y;
+            lbScore.Text = score.ToString();
+        }
 
         void MoveEnemy(int speed) 
         {
@@ -79,22 +84,65 @@ namespace CarRace
             }
         }
 
+        void MoveCoin(int speed) 
+        {
+            for (int i = 1; i <= 4; i++)
+            {
+                PictureBox coin = (PictureBox)this.Controls.Find("coin" + i, true)[0];
+                if (coin.Top >= 700)
+                {
+                    x = r.Next(36, 718);
+                    coin.Location = new Point(x, 0);
+                }
+                else
+                {
+                    coin.Top += speed;
+                }
+            }
+        }
+
+        void Scoring() 
+        {
+            for (int i = 1; i <= 4; i++)
+            {
+                PictureBox coin = (PictureBox)this.Controls.Find("coin" + i, true)[0];
+                if (car.Bounds.IntersectsWith(coin.Bounds))
+                {
+                    coin.Top = 0;
+                    score += 1;
+                }
+            }
+        }
+
+        void GameOver()
+        {
+            for (int i = 1; i <= 3; i++)
+            {
+                PictureBox enemy = (PictureBox)this.Controls.Find("enemy" + i, true)[0];
+                if (car.Bounds.IntersectsWith(enemy.Bounds))
+                {
+                    timer1.Enabled = false;
+                    MessageBox.Show("Game Over");
+                    MessageBox.Show("Your Score is " + this.score);
+                }
+            }
+        }
 
         private void Game_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Left && car.Left > 35)
+            if (e.KeyCode == Keys.A && car.Left > 35)
             {
-                car.Left += -10;
+                car.Left += -20;
             }
-            if (e.KeyCode == Keys.Right && car.Left < 700)
+            if (e.KeyCode == Keys.D && car.Left < 700)
             {
-                car.Left += 10;
+                car.Left += 20;
             }
-            if (e.KeyCode == Keys.Up && gamespeed < 10)
+            if (e.KeyCode == Keys.W && gamespeed < 10)
             {
                 gamespeed++;
             }
-            if (e.KeyCode == Keys.Down && gamespeed > 0)
+            if (e.KeyCode == Keys.S && gamespeed > 0)
             {
                 gamespeed--;
             }
