@@ -103,6 +103,16 @@ namespace CarRace.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cl1 {
+            get {
+                object obj = ResourceManager.GetObject("cl1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cl2 {
             get {
                 object obj = ResourceManager.GetObject("cl2", resourceCulture);
@@ -146,6 +156,26 @@ namespace CarRace.Properties {
         internal static System.Drawing.Bitmap cr3 {
             get {
                 object obj = ResourceManager.GetObject("cr3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cr4 {
+            get {
+                object obj = ResourceManager.GetObject("cr4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cr5 {
+            get {
+                object obj = ResourceManager.GetObject("cr5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

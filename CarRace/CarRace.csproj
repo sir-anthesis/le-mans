@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Account.cs" />
+    <Compile Include="CarList.cs" />
     <Compile Include="Connection.cs" />
     <Compile Include="Game.cs">
       <SubType>Form</SubType>
@@ -147,13 +148,21 @@
     <None Include="Resources\cr3.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cl3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cr31.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\cr1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cr4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cr5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cl1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\cl3.png" />
+    <Content Include="Resources\cl4.png" />
+    <Content Include="Resources\cl5.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

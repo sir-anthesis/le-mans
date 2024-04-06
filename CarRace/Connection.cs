@@ -31,7 +31,7 @@ namespace CarRace
             try
             {
                 con.Open();
-                MessageBox.Show("Buka Koneksi Berhasil");
+                //MessageBox.Show("Buka Koneksi Berhasil");
             }
             catch (SqlException sqle)
             {
@@ -43,7 +43,7 @@ namespace CarRace
             try
             {
                 con.Close();
-                MessageBox.Show("Tutup Koneksi Berhasil");
+                //MessageBox.Show("Tutup Koneksi Berhasil");
             }
             catch (SqlException sqle)
             {
