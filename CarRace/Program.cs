@@ -16,7 +16,7 @@ namespace CarRace
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Garage());
+            Application.Run(new Login());
         }
     }
 }

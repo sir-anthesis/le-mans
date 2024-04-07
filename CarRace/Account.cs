@@ -7,6 +7,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.AxHost;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace CarRace
@@ -17,6 +18,7 @@ namespace CarRace
         public string username;
         public string name;
         public string password;
+        public string car_thumb;
 
         Connection connection = new Connection();
 
@@ -92,5 +94,83 @@ namespace CarRace
             }
             return stat;
         }
+
+        public void UpdateCoins() 
+        {
+            connection.OpenCon();
+            try
+            {
+                string query = "UPDATE tb_account SET coins = @coins WHERE id_account = @id_account";
+                SqlCommand com = new SqlCommand(query, connection.con);
+                com.Parameters.AddWithValue("@coins", GlobalVariable.coins);
+                com.Parameters.AddWithValue("@id_account", GlobalVariable.id_acc);
+                int i = com.ExecuteNonQuery();
+                if (i > 0)
+                {
+                    MessageBox.Show("Update Coin Successfully");
+                }
+                else
+                {
+                    MessageBox.Show("Update Coin Failed");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                connection.CloseCon();
+            }
+        }
+
+        public void ActivingCar() 
+        {
+            connection.OpenCon();
+            try
+            {
+                string query = "UPDATE tb_account SET car_active = @car_active WHERE id_account = @id_account";
+                SqlCommand com = new SqlCommand(query, connection.con);
+                com.Parameters.AddWithValue("@car_active", GlobalVariable.car_active);
+                com.Parameters.AddWithValue("@id_account", GlobalVariable.id_acc);
+                com.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                connection.CloseCon();
+            }
+        }
+
+        public string CarThumbnail()
+        {
+            connection.OpenCon();
+            try
+            {
+                string query = "SELECT car_right FROM tb_carlist WHERE id_car = @id_car";
+                SqlCommand com = new SqlCommand(query, connection.con);
+                com.Parameters.AddWithValue("@id_car", GlobalVariable.car_active);
+                SqlDataReader dr = com.ExecuteReader();
+                if (dr.Read())
+                {
+                    car_thumb = "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Resources\\" + dr[0].ToString();
+                    return car_thumb;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                connection.CloseCon();
+            }
+            return null; // Return null if car thumbnail retrieval fails
+        }
+
+
     }
 }

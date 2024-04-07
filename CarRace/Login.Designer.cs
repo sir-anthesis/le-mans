@@ -64,17 +64,20 @@
             // 
             // txusn
             // 
+            this.txusn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txusn.Location = new System.Drawing.Point(39, 226);
             this.txusn.Name = "txusn";
-            this.txusn.Size = new System.Drawing.Size(267, 20);
+            this.txusn.Size = new System.Drawing.Size(267, 31);
             this.txusn.TabIndex = 3;
             // 
             // txpass
             // 
+            this.txpass.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txpass.Location = new System.Drawing.Point(39, 342);
             this.txpass.Name = "txpass";
-            this.txpass.Size = new System.Drawing.Size(267, 20);
+            this.txpass.Size = new System.Drawing.Size(267, 31);
             this.txpass.TabIndex = 4;
+            this.txpass.UseSystemPasswordChar = true;
             // 
             // btlogin
             // 
@@ -100,7 +103,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::CarRace.Properties.Resources.bg1;
+            this.pictureBox1.Image = global::CarRace.Properties.Resources.bg;
             this.pictureBox1.Location = new System.Drawing.Point(-7, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(800, 700);

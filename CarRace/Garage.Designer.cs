@@ -40,6 +40,9 @@
             this.lbcoins = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lbprice = new System.Windows.Forms.Label();
+            this.btbuy = new System.Windows.Forms.Button();
+            this.btuse = new System.Windows.Forms.Button();
+            this.btback = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pccr5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pccr4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pccr1)).BeginInit();
@@ -191,11 +194,48 @@
             this.lbprice.TabIndex = 16;
             this.lbprice.Text = "0";
             // 
+            // btbuy
+            // 
+            this.btbuy.Font = new System.Drawing.Font("Elephant", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btbuy.Location = new System.Drawing.Point(12, 577);
+            this.btbuy.Name = "btbuy";
+            this.btbuy.Size = new System.Drawing.Size(454, 34);
+            this.btbuy.TabIndex = 19;
+            this.btbuy.Text = "BUY";
+            this.btbuy.UseVisualStyleBackColor = true;
+            this.btbuy.Click += new System.EventHandler(this.btbuy_Click);
+            // 
+            // btuse
+            // 
+            this.btuse.Font = new System.Drawing.Font("Elephant", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btuse.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btuse.Location = new System.Drawing.Point(263, 264);
+            this.btuse.Name = "btuse";
+            this.btuse.Size = new System.Drawing.Size(138, 29);
+            this.btuse.TabIndex = 20;
+            this.btuse.Text = "USE";
+            this.btuse.UseVisualStyleBackColor = true;
+            this.btuse.Click += new System.EventHandler(this.btuse_Click);
+            // 
+            // btback
+            // 
+            this.btback.Font = new System.Drawing.Font("Elephant", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btback.Location = new System.Drawing.Point(12, 12);
+            this.btback.Name = "btback";
+            this.btback.Size = new System.Drawing.Size(112, 34);
+            this.btback.TabIndex = 21;
+            this.btback.Text = "BACK";
+            this.btback.UseVisualStyleBackColor = true;
+            this.btback.Click += new System.EventHandler(this.btback_Click);
+            // 
             // Garage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 661);
+            this.Controls.Add(this.btback);
+            this.Controls.Add(this.btuse);
+            this.Controls.Add(this.btbuy);
             this.Controls.Add(this.lbcoins);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lbprice);
@@ -237,5 +277,8 @@
         private System.Windows.Forms.Label lbcoins;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbprice;
+        private System.Windows.Forms.Button btbuy;
+        private System.Windows.Forms.Button btuse;
+        private System.Windows.Forms.Button btback;
     }
 }

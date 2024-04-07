@@ -44,7 +44,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::CarRace.Properties.Resources.bg1;
+            this.pictureBox1.Image = global::CarRace.Properties.Resources.bg;
             this.pictureBox1.Location = new System.Drawing.Point(-8, -1);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(800, 700);
@@ -79,6 +79,7 @@
             this.txpassword.Name = "txpassword";
             this.txpassword.Size = new System.Drawing.Size(267, 20);
             this.txpassword.TabIndex = 10;
+            this.txpassword.UseSystemPasswordChar = true;
             // 
             // txname
             // 

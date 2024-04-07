@@ -29,3 +29,13 @@ VALUES
 ('CR3', 'Lamborghini Huracan', 'cr3.png', 'cl3.png', 'cp3.png', 22, 275),
 ('CR4', 'Aston Martin Valhalla', 'cr4.png', 'cl4.png', 'cp4.png', 25, 400),
 ('CR5', 'W MOTORS Fenryr', 'cr5.png', 'cl5.png', 'cp5.png', 27, 500);
+
+CREATE TABLE tb_carowned (
+    id_account INT,
+    id_car VARCHAR(5),
+    car_name VARCHAR(30),
+    UNIQUE (car_name),
+    FOREIGN KEY (id_account) REFERENCES tb_account(id_account),
+    FOREIGN KEY (id_car) REFERENCES tb_carlist(id_car)
+);
+
