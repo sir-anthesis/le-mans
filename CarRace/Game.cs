@@ -16,11 +16,21 @@ namespace CarRace
         int gamespeed = 0;
         Random r = new Random();
         int x, y;
-        int score = 0;
+        public static int score;
+        int carspeed;
+        Account acc = new Account();
 
         public Game()
         {
             InitializeComponent();
+        }
+
+        private void Game_Load(object sender, EventArgs e)
+        {
+            acc.CarThumbnail();
+            car.BackgroundImage = Image.FromFile(acc.car_px);
+            this.carspeed = acc.car_speed;
+            Game.score = 0;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -122,8 +132,13 @@ namespace CarRace
                 if (car.Bounds.IntersectsWith(enemy.Bounds))
                 {
                     timer1.Enabled = false;
-                    MessageBox.Show("Game Over");
-                    MessageBox.Show("Your Score is " + this.score);
+                    GlobalVariable.coins += score;
+                    acc.UpdateCoins();
+                    acc.AddHistory();
+                    MessageBox.Show("Your Score is " + score);
+                    this.Hide();
+                    Home hm = new Home();
+                    hm.Show();
                 }
             }
         }
@@ -132,11 +147,11 @@ namespace CarRace
         {
             if (e.KeyCode == Keys.A && car.Left > 35)
             {
-                car.Left += -20;
+                car.Left -= carspeed;
             }
             if (e.KeyCode == Keys.D && car.Left < 700)
             {
-                car.Left += 20;
+                car.Left += carspeed;
             }
             if (e.KeyCode == Keys.W && gamespeed < 10)
             {

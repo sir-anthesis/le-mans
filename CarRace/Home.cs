@@ -32,5 +32,12 @@ namespace CarRace
             this.Hide();
             gr.Show();
         }
+
+        private void btplay_Click(object sender, EventArgs e)
+        {
+            Game game = new Game();
+            this.Hide();
+            game.Show();
+        }
     }
 }

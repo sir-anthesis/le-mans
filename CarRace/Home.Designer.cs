@@ -84,6 +84,7 @@
             this.btplay.TabIndex = 8;
             this.btplay.Text = "PLAY";
             this.btplay.UseVisualStyleBackColor = true;
+            this.btplay.Click += new System.EventHandler(this.btplay_Click);
             // 
             // btgrg
             // 

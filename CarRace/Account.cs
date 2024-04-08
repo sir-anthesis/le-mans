@@ -19,6 +19,9 @@ namespace CarRace
         public string name;
         public string password;
         public string car_thumb;
+        public string car_px;
+        public int car_speed;
+        public string car_name;
 
         Connection connection = new Connection();
 
@@ -145,19 +148,21 @@ namespace CarRace
             }
         }
 
-        public string CarThumbnail()
+        public void CarThumbnail()
         {
             connection.OpenCon();
             try
             {
-                string query = "SELECT car_right FROM tb_carlist WHERE id_car = @id_car";
+                string query = "SELECT car_right, car_pixel, speed, car_name FROM tb_carlist WHERE id_car = @id_car";
                 SqlCommand com = new SqlCommand(query, connection.con);
                 com.Parameters.AddWithValue("@id_car", GlobalVariable.car_active);
                 SqlDataReader dr = com.ExecuteReader();
                 if (dr.Read())
                 {
-                    car_thumb = "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Resources\\" + dr[0].ToString();
-                    return car_thumb;
+                    this.car_thumb = "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Resources\\" + dr[0].ToString();
+                    this.car_px = "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Resources\\" + dr[1].ToString();
+                    this.car_speed = Convert.ToInt32(dr[2]);
+                    this.car_name = dr[3].ToString();
                 }
             }
             catch (Exception ex)
@@ -168,8 +173,41 @@ namespace CarRace
             {
                 connection.CloseCon();
             }
-            return null; // Return null if car thumbnail retrieval fails
         }
+
+        public void AddHistory()
+        {
+            connection.OpenCon();
+            try
+            {
+                string query = "INSERT INTO tb_history VALUES (@id_account, @id_car, @acc_name, @car_name, @score, @time)";
+                SqlCommand com = new SqlCommand(query, connection.con);
+                com.Parameters.AddWithValue("@id_account", GlobalVariable.id_acc);
+                com.Parameters.AddWithValue("@id_car", GlobalVariable.car_active);
+                com.Parameters.AddWithValue("@acc_name", GlobalVariable.name);
+                com.Parameters.AddWithValue("@car_name", car_name);
+                com.Parameters.AddWithValue("@score", Game.score);
+                com.Parameters.AddWithValue("@time", DateTime.Now);
+                int i = com.ExecuteNonQuery();
+                if (i > 0)
+                {
+                    MessageBox.Show("History has been saved");
+                }
+                else
+                {
+                    MessageBox.Show("History Failed");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                connection.CloseCon();
+            }
+        }
+
 
 
     }

@@ -97,6 +97,12 @@ namespace CarRace
                 lbcoins.Text = GlobalVariable.coins.ToString();
                 ac.UpdateCoins();
                 CarClicked(cl.id_car);
+
+                if (GlobalVariable.car_active == cl.id_car)
+                {
+                    GlobalVariable.car_active = "CR1";
+                    ac.ActivingCar();
+                }
             }
             else 
             {

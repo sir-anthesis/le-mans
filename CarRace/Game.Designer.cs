@@ -113,9 +113,9 @@
             // 
             this.car.BackgroundImage = global::CarRace.Properties.Resources.car1;
             this.car.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.car.Location = new System.Drawing.Point(389, 574);
+            this.car.Location = new System.Drawing.Point(389, 564);
             this.car.Name = "car";
-            this.car.Size = new System.Drawing.Size(50, 75);
+            this.car.Size = new System.Drawing.Size(50, 85);
             this.car.TabIndex = 35;
             this.car.TabStop = false;
             // 
@@ -325,6 +325,7 @@
             this.Controls.Add(this.lineBox9);
             this.Name = "Game";
             this.Text = "Game";
+            this.Load += new System.EventHandler(this.Game_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Game_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.coin1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemy3)).EndInit();
