@@ -13,7 +13,7 @@ namespace CarRace
 {
     public partial class Game : Form
     {
-        int gamespeed = 0;
+        int gamespeed;
         Random r = new Random();
         int x, y;
         public static int score;
@@ -27,6 +27,7 @@ namespace CarRace
 
         private void Game_Load(object sender, EventArgs e)
         {
+            gamespeed = 1;
             acc.CarThumbnail();
             car.BackgroundImage = Image.FromFile(acc.car_px);
             this.carspeed = acc.car_speed;
@@ -99,7 +100,7 @@ namespace CarRace
             for (int i = 1; i <= 4; i++)
             {
                 PictureBox coin = (PictureBox)this.Controls.Find("coin" + i, true)[0];
-                if (coin.Top >= 700)
+                if (coin.Top >= 700 || car.Bounds.IntersectsWith(coin.Bounds))
                 {
                     x = r.Next(36, 718);
                     coin.Location = new Point(x, 0);
@@ -118,7 +119,6 @@ namespace CarRace
                 PictureBox coin = (PictureBox)this.Controls.Find("coin" + i, true)[0];
                 if (car.Bounds.IntersectsWith(coin.Bounds))
                 {
-                    coin.Top = 0;
                     score += 1;
                 }
             }

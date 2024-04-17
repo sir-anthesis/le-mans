@@ -35,6 +35,8 @@
             this.btgrg = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pccar = new System.Windows.Forms.PictureBox();
+            this.btlogout = new System.Windows.Forms.Button();
+            this.btldb = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pccar)).BeginInit();
             this.SuspendLayout();
@@ -118,11 +120,35 @@
             this.pccar.TabIndex = 10;
             this.pccar.TabStop = false;
             // 
+            // btlogout
+            // 
+            this.btlogout.Font = new System.Drawing.Font("Elephant", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btlogout.Location = new System.Drawing.Point(12, 488);
+            this.btlogout.Name = "btlogout";
+            this.btlogout.Size = new System.Drawing.Size(289, 34);
+            this.btlogout.TabIndex = 11;
+            this.btlogout.Text = "LOGOUT";
+            this.btlogout.UseVisualStyleBackColor = true;
+            this.btlogout.Click += new System.EventHandler(this.btlogout_Click);
+            // 
+            // btldb
+            // 
+            this.btldb.Font = new System.Drawing.Font("Elephant", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btldb.Location = new System.Drawing.Point(12, 312);
+            this.btldb.Name = "btldb";
+            this.btldb.Size = new System.Drawing.Size(289, 34);
+            this.btldb.TabIndex = 12;
+            this.btldb.Text = "LEADERBOARD";
+            this.btldb.UseVisualStyleBackColor = true;
+            this.btldb.Click += new System.EventHandler(this.btldb_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 661);
+            this.Controls.Add(this.btldb);
+            this.Controls.Add(this.btlogout);
             this.Controls.Add(this.pccar);
             this.Controls.Add(this.btgrg);
             this.Controls.Add(this.btplay);
@@ -131,6 +157,7 @@
             this.Controls.Add(this.lbuser);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Home";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
             this.Load += new System.EventHandler(this.Home_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -149,5 +176,7 @@
         private System.Windows.Forms.Button btplay;
         private System.Windows.Forms.Button btgrg;
         private System.Windows.Forms.PictureBox pccar;
+        private System.Windows.Forms.Button btlogout;
+        private System.Windows.Forms.Button btldb;
     }
 }

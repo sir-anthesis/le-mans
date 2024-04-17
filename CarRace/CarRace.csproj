@@ -68,6 +68,12 @@
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="Leaderboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Leaderboard.Designer.cs">
+      <DependentUpon>Leaderboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +96,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Leaderboard.resx">
+      <DependentUpon>Leaderboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -121,7 +130,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\car1.png" />
+    <None Include="Resources\cp2.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\enemy.png" />
@@ -156,10 +165,12 @@
   <ItemGroup>
     <Content Include="Resources\bg.png" />
     <Content Include="Resources\bg1.png" />
+    <None Include="Resources\bg3.png" />
     <Content Include="Resources\cl3.png" />
     <Content Include="Resources\cl4.png" />
     <Content Include="Resources\cl5.png" />
     <Content Include="Resources\cp1.png" />
+    <None Include="Resources\car1.png" />
     <Content Include="Resources\cp3.png" />
     <Content Include="Resources\cp4.png" />
     <Content Include="Resources\cp5.png" />

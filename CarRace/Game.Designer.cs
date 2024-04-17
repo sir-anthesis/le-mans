@@ -30,6 +30,11 @@
         {
             this.components = new System.ComponentModel.Container();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label1 = new System.Windows.Forms.Label();
+            this.lbScore = new System.Windows.Forms.Label();
+            this.coin4 = new System.Windows.Forms.PictureBox();
+            this.coin3 = new System.Windows.Forms.PictureBox();
+            this.coin2 = new System.Windows.Forms.PictureBox();
             this.coin1 = new System.Windows.Forms.PictureBox();
             this.enemy3 = new System.Windows.Forms.PictureBox();
             this.enemy2 = new System.Windows.Forms.PictureBox();
@@ -46,11 +51,9 @@
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.pictureBox25 = new System.Windows.Forms.PictureBox();
             this.lineBox9 = new System.Windows.Forms.PictureBox();
-            this.coin2 = new System.Windows.Forms.PictureBox();
-            this.coin3 = new System.Windows.Forms.PictureBox();
-            this.coin4 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lbScore = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.coin4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coin3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coin2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.coin1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemy3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemy2)).BeginInit();
@@ -67,9 +70,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lineBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.coin2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.coin3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.coin4)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
@@ -77,6 +77,63 @@
             this.timer1.Enabled = true;
             this.timer1.Interval = 10;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Brush Script MT", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Yellow;
+            this.label1.Location = new System.Drawing.Point(12, 14);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(122, 33);
+            this.label1.TabIndex = 42;
+            this.label1.Text = "SCORE :";
+            // 
+            // lbScore
+            // 
+            this.lbScore.AutoSize = true;
+            this.lbScore.BackColor = System.Drawing.Color.Transparent;
+            this.lbScore.Font = new System.Drawing.Font("Engravers MT", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbScore.ForeColor = System.Drawing.Color.Red;
+            this.lbScore.Location = new System.Drawing.Point(134, 14);
+            this.lbScore.Name = "lbScore";
+            this.lbScore.Size = new System.Drawing.Size(32, 31);
+            this.lbScore.TabIndex = 43;
+            this.lbScore.Text = "0";
+            // 
+            // coin4
+            // 
+            this.coin4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.coin4.Image = global::CarRace.Properties.Resources.coin;
+            this.coin4.Location = new System.Drawing.Point(703, 26);
+            this.coin4.Name = "coin4";
+            this.coin4.Size = new System.Drawing.Size(30, 30);
+            this.coin4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.coin4.TabIndex = 41;
+            this.coin4.TabStop = false;
+            // 
+            // coin3
+            // 
+            this.coin3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.coin3.Image = global::CarRace.Properties.Resources.coin;
+            this.coin3.Location = new System.Drawing.Point(525, 236);
+            this.coin3.Name = "coin3";
+            this.coin3.Size = new System.Drawing.Size(30, 30);
+            this.coin3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.coin3.TabIndex = 40;
+            this.coin3.TabStop = false;
+            // 
+            // coin2
+            // 
+            this.coin2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.coin2.Image = global::CarRace.Properties.Resources.coin;
+            this.coin2.Location = new System.Drawing.Point(273, 75);
+            this.coin2.Name = "coin2";
+            this.coin2.Size = new System.Drawing.Size(30, 30);
+            this.coin2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.coin2.TabIndex = 39;
+            this.coin2.TabStop = false;
             // 
             // coin1
             // 
@@ -239,63 +296,6 @@
             this.lineBox9.TabIndex = 4;
             this.lineBox9.TabStop = false;
             // 
-            // coin2
-            // 
-            this.coin2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.coin2.Image = global::CarRace.Properties.Resources.coin;
-            this.coin2.Location = new System.Drawing.Point(273, 75);
-            this.coin2.Name = "coin2";
-            this.coin2.Size = new System.Drawing.Size(30, 30);
-            this.coin2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.coin2.TabIndex = 39;
-            this.coin2.TabStop = false;
-            // 
-            // coin3
-            // 
-            this.coin3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.coin3.Image = global::CarRace.Properties.Resources.coin;
-            this.coin3.Location = new System.Drawing.Point(525, 236);
-            this.coin3.Name = "coin3";
-            this.coin3.Size = new System.Drawing.Size(30, 30);
-            this.coin3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.coin3.TabIndex = 40;
-            this.coin3.TabStop = false;
-            // 
-            // coin4
-            // 
-            this.coin4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.coin4.Image = global::CarRace.Properties.Resources.coin;
-            this.coin4.Location = new System.Drawing.Point(703, 26);
-            this.coin4.Name = "coin4";
-            this.coin4.Size = new System.Drawing.Size(30, 30);
-            this.coin4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.coin4.TabIndex = 41;
-            this.coin4.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Brush Script MT", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Yellow;
-            this.label1.Location = new System.Drawing.Point(12, 14);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(122, 33);
-            this.label1.TabIndex = 42;
-            this.label1.Text = "SCORE :";
-            // 
-            // lbScore
-            // 
-            this.lbScore.AutoSize = true;
-            this.lbScore.BackColor = System.Drawing.Color.Transparent;
-            this.lbScore.Font = new System.Drawing.Font("Engravers MT", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbScore.ForeColor = System.Drawing.Color.Red;
-            this.lbScore.Location = new System.Drawing.Point(134, 14);
-            this.lbScore.Name = "lbScore";
-            this.lbScore.Size = new System.Drawing.Size(32, 31);
-            this.lbScore.TabIndex = 43;
-            this.lbScore.Text = "0";
-            // 
             // Game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -323,10 +323,15 @@
             this.Controls.Add(this.pictureBox21);
             this.Controls.Add(this.pictureBox25);
             this.Controls.Add(this.lineBox9);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Game";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Game";
             this.Load += new System.EventHandler(this.Game_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Game_KeyDown);
+            ((System.ComponentModel.ISupportInitialize)(this.coin4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coin3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coin2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.coin1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemy3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemy2)).EndInit();
@@ -343,9 +348,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lineBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.coin2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.coin3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.coin4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

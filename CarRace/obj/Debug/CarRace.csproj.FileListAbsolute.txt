@@ -12,3 +12,4 @@ C:\Users\User\source\repos\CarRace\CarRace\obj\Debug\CarRace.Home.resources
 C:\Users\User\source\repos\CarRace\CarRace\obj\Debug\CarRace.Garage.resources
 C:\Users\User\source\repos\CarRace\CarRace\obj\Debug\CarRace.Login.resources
 C:\Users\User\source\repos\CarRace\CarRace\obj\Debug\CarRace.Register.resources
+C:\Users\User\source\repos\CarRace\CarRace\obj\Debug\CarRace.Leaderboard.resources

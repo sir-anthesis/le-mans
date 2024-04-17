@@ -84,7 +84,7 @@ namespace CarRace
                 }
                 else
                 {
-                    MessageBox.Show("Register Failed");
+                    MessageBox.Show("Your Username or Password are Incorrect");
                 }
             }
             catch (Exception ex)
@@ -96,6 +96,14 @@ namespace CarRace
                 connection.CloseCon();
             }
             return stat;
+        }
+
+        public void Logout() 
+        {
+            GlobalVariable.id_acc = 0;
+            GlobalVariable.name = "";
+            GlobalVariable.coins = 0;
+            GlobalVariable.car_active = "";
         }
 
         public void UpdateCoins() 

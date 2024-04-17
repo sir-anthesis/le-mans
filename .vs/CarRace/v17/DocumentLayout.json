@@ -3,24 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\CarRace\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|c:\\users\\user\\source\\repos\\carrace\\carrace\\garage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|solutionrelative:carrace\\garage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|C:\\Users\\User\\source\\repos\\CarRace\\carrace\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|solutionrelative:carrace\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|c:\\users\\user\\source\\repos\\carrace\\carrace\\garage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|c:\\users\\user\\source\\repos\\carrace\\carrace\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|solutionrelative:carrace\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|C:\\Users\\User\\source\\repos\\CarRace\\carrace\\leaderboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|solutionrelative:carrace\\leaderboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|C:\\Users\\User\\source\\repos\\CarRace\\carrace\\leaderboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|solutionrelative:carrace\\leaderboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|C:\\Users\\User\\source\\repos\\CarRace\\carrace\\garage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|solutionrelative:carrace\\garage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|c:\\users\\user\\source\\repos\\carrace\\carrace\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|solutionrelative:carrace\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|C:\\Users\\User\\source\\repos\\CarRace\\carrace\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|solutionrelative:carrace\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|c:\\users\\user\\source\\repos\\carrace\\carrace\\carlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|C:\\Users\\User\\source\\repos\\CarRace\\carrace\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|solutionrelative:carrace\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|C:\\Users\\User\\source\\repos\\CarRace\\carrace\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|solutionrelative:carrace\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|C:\\Users\\User\\source\\repos\\CarRace\\carrace\\garage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|solutionrelative:carrace\\garage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|C:\\Users\\User\\source\\repos\\CarRace\\carrace\\carlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|solutionrelative:carrace\\carlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|c:\\users\\user\\source\\repos\\carrace\\carrace\\globalvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|C:\\Users\\User\\source\\repos\\CarRace\\carrace\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|solutionrelative:carrace\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|C:\\Users\\User\\source\\repos\\CarRace\\carrace\\globalvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|solutionrelative:carrace\\globalvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|C:\\Users\\User\\source\\repos\\CarRace\\carrace\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|solutionrelative:carrace\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|C:\\Users\\User\\source\\repos\\CarRace\\carrace\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|solutionrelative:carrace\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|C:\\Users\\User\\source\\repos\\CarRace\\carrace\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|solutionrelative:carrace\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|C:\\Users\\User\\source\\repos\\CarRace\\carrace\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11DC9C4F-F8B6-4375-892A-5A47500CA863}|CarRace\\CarRace.csproj|solutionrelative:carrace\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,49 +74,146 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Game.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Game.cs",
+              "RelativeDocumentMoniker": "CarRace\\Game.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Game.cs [Design]",
+              "RelativeToolTip": "CarRace\\Game.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T15:24:20.13Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Register.cs",
+              "RelativeDocumentMoniker": "CarRace\\Register.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Register.cs [Design]",
+              "RelativeToolTip": "CarRace\\Register.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T08:29:19.352Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Home.cs",
+              "RelativeDocumentMoniker": "CarRace\\Home.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Home.cs [Design]",
+              "RelativeToolTip": "CarRace\\Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:00:48.394Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Leaderboard.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Leaderboard.cs",
+              "RelativeDocumentMoniker": "CarRace\\Leaderboard.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Leaderboard.cs",
+              "RelativeToolTip": "CarRace\\Leaderboard.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAuwCQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T14:43:13.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Game.cs",
+              "RelativeDocumentMoniker": "CarRace\\Game.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Game.cs",
+              "RelativeToolTip": "CarRace\\Game.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T08:20:01.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Leaderboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Leaderboard.cs",
+              "RelativeDocumentMoniker": "CarRace\\Leaderboard.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Leaderboard.cs [Design]",
+              "RelativeToolTip": "CarRace\\Leaderboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T14:30:29.884Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Garage.cs [Design]",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Garage.cs",
               "RelativeDocumentMoniker": "CarRace\\Garage.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Garage.cs [Design]",
               "RelativeToolTip": "CarRace\\Garage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T20:52:15.963Z",
+              "WhenOpened": "2024-04-16T14:47:37.348Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Login.cs",
+              "RelativeDocumentMoniker": "CarRace\\Login.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Login.cs [Design]",
+              "RelativeToolTip": "CarRace\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T14:56:45.312Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Garage.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Garage.cs",
               "RelativeDocumentMoniker": "CarRace\\Garage.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Garage.cs",
               "RelativeToolTip": "CarRace\\Garage.cs",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAcwGcAAAAlAAAA",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAqwHwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T20:49:48.135Z",
+              "WhenOpened": "2024-04-17T08:49:17.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "CarList.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\CarList.cs",
               "RelativeDocumentMoniker": "CarRace\\CarList.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\CarList.cs",
               "RelativeToolTip": "CarRace\\CarList.cs",
-              "ViewState": "AQIAAGYAAAAAAAAAAAAowAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG8AAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T20:48:23.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T09:06:50.505Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Account.cs",
+              "RelativeDocumentMoniker": "CarRace\\Account.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Account.cs",
+              "RelativeToolTip": "CarRace\\Account.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAL4AAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T14:57:15.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "GlobalVariable.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\GlobalVariable.cs",
               "RelativeDocumentMoniker": "CarRace\\GlobalVariable.cs",
@@ -80,21 +221,57 @@
               "RelativeToolTip": "CarRace\\GlobalVariable.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T16:31:15.016Z",
+              "WhenOpened": "2024-04-14T14:53:50.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Login.cs",
+              "RelativeDocumentMoniker": "CarRace\\Login.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Login.cs",
+              "RelativeToolTip": "CarRace\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T14:56:58.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Account.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Account.cs",
-              "RelativeDocumentMoniker": "CarRace\\Account.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Account.cs",
-              "RelativeToolTip": "CarRace\\Account.cs",
-              "ViewState": "AQIAAHMAAAAAAAAAAAAcwIEAAAAfAAAA",
+              "DocumentIndex": 14,
+              "Title": "Home.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Home.cs",
+              "RelativeDocumentMoniker": "CarRace\\Home.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Home.cs",
+              "RelativeToolTip": "CarRace\\Home.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA6wBUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T14:43:48.628Z",
+              "WhenOpened": "2024-04-14T15:01:39.657Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Program.cs",
+              "RelativeDocumentMoniker": "CarRace\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Program.cs",
+              "RelativeToolTip": "CarRace\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T14:46:19.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Connection.cs",
+              "RelativeDocumentMoniker": "CarRace\\Connection.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CarRace\\CarRace\\Connection.cs",
+              "RelativeToolTip": "CarRace\\Connection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T14:23:33.815Z"
             }
           ]
         }

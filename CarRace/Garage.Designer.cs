@@ -249,6 +249,7 @@
             this.Controls.Add(this.pccr);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Garage";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Garage";
             this.Load += new System.EventHandler(this.Garage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pccr5)).EndInit();

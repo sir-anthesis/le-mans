@@ -39,5 +39,21 @@ namespace CarRace
             this.Hide();
             game.Show();
         }
+
+        private void btlogout_Click(object sender, EventArgs e)
+        {
+            acc.Logout();
+
+            Login lg = new Login();
+            this.Hide();
+            lg.Show();
+        }
+
+        private void btldb_Click(object sender, EventArgs e)
+        {
+            Leaderboard ld = new Leaderboard();
+            ld.Show();
+            this.Hide();
+        }
     }
 }
